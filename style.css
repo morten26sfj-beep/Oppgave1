@@ -1,0 +1,65 @@
+.Background{
+    background-color: rgba(113, 108, 117, 0.712);}
+
+
+.CornerBox{
+    background-color: aquamarine;
+    border: solid 5px rgb(63, 63, 63);
+    border-radius: 20%;
+    padding: 10px;
+    justify-content: left;
+    max-width: 150px;
+}
+
+
+
+.PictureFrame{
+  display: flex;
+  width: 60%;
+  max-width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  flex-direction: column-reverse;
+  align-items: center;
+  border: 10px solid rgb(63, 63, 63);
+  border-radius: 10%;
+  overflow: hidden;
+  background-color: #000;
+  color: antiquewhite;
+}
+.PictureFrame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.PictureFrame h3 {
+    margin: 0;
+    font-size: medium;
+
+}
+
+.PictureFrame p {
+    font-size: larger;
+    font-family: cursive;
+    text-align: center;
+    margin: 8px;
+}
+
+.FooterTextBox{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px;
+  background-color: white;
+  font-size: 24px;
+  border: 1px solid rgb(63,63,63);
+  border-radius: 37px;
+  box-sizing: border-box;
+  margin: 0 auto 5px;
+  text-align: center;
+  max-height: 70px;
+  line-height: 0;
+
+}
